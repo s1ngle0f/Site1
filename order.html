@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <script src="src/jquery.js"></script>
+    <link rel="stylesheet" href="src/order.css" type="text/css">
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://manage.rtuitlab.dev/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function check() {
+            let name = document.getElementById("name");
+            let email = document.getElementById("email");
+            let phone = document.getElementById("phone");
+
+            if (name.value !== '' && phone.value !== '' && email.value !== '') {
+                alert('Данные успешно отправлены');
+            }
+            if (name.value === "") {
+                name.style.backgroundColor = "#c94f4f";
+                name.style.color = "white";
+                alert("Не введено имя");
+
+            }
+            else {
+                name.style.backgroundColor = "white";
+                name.style.color = "black";
+                name.value = '';
+            }
+
+            if (email.value === "") {
+                email.style.backgroundColor = "#c94f4f";
+                email.style.color = "white";
+                alert("Не введен email");
+
+            }
+            else {
+                email.style.backgroundColor = "white";
+                email.style.color = "black";
+                email.value = '';
+
+            }
+
+            if (phone.value === "") {
+                phone.style.backgroundColor = "#c94f4f";
+                phone.style.color = "white";
+                alert("Не введен телефон");
+            }
+            else {
+                phone.style.backgroundColor = "white";
+                phone.style.color = "black";
+                phone.value = '';
+            }
+
+        }
+    </script>
+
+    <title>Заказать</title>
+</head>
+<body>
+    <header>
+        <a href="https://s1ngle0f.github.io/Site/" style="background-color: white; border: 0px solid;">
+            <img src="images/logo.jpg" width="100" alt="logo">
+        </a>
+        <nav id="nav_menu_desc">
+            <ol>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="SmartPhones.html">Смартфоны</a></li>
+                <li><a href="PCs.html">Ноутбуки и ПК</a></li>
+                <li><a href="other.html">Другие устройства</a></li>
+                <li><a href="#bottom" style="color: slategray">Войти</a></li>
+            </ol>
+        </nav>
+    </header>
+<div id="1block">
+    <form>
+        <h1 class="form_title">Вход</h1>
+        <div class="form_grup">
+            <label class="form_label">Email</label>
+            <input class="form_input">
+        </div>
+        <div class="form_grup">
+            <label class="form_label">Пароль</label>
+            <input class="form_input">
+        </div>
+        <button class="form_button">Войти</button>
+    </form>
+</div>
+
+<footer>
+    <p><a name="bottom">Зубков Михаил Витальевич ИКБО-30-20. РТУ МИРЭА</a></p>
+</footer>
+</body>
+</html>

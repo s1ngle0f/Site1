@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="src/jquery.js"></script>
+    <link rel="stylesheet" href="src/styles.css" type="text/css">
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://manage.rtuitlab.dev/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+</head>
+<body>
+    <header>
+        <a href="https://s1ngle0f.github.io/Site/" style="background-color: white; border: 0px solid;">
+            <img src="images/logo.jpg" width="100" alt="logo">
+        </a>
+        <nav id="nav_menu_desc">
+            <ol>
+                <li><a href="#bottom" style="color: slategray">Главная</a></li>
+                <li><a href="SmartPhones.html">Смартфоны</a></li>
+                <li><a href="PCs.html">Ноутбуки и ПК</a></li>
+                <li><a href="other.html">Другие устройства</a></li>
+                <li><a href="order.html">Войти</a></li>
+            </ol>
+        </nav>
+    </header>
+    <div id="1block">
+        <picture>
+            <source media="(max-width: 1200px)" srcset="images/index/1block_smaller_too.jpeg">
+            <source media="(max-width: 1632px)" srcset="images/index/1block_smaller.jpeg">
+            <source media="(max-width: 2480px)" srcset="images/index/1block.jpeg">
+            <img src="images/index/1block.jpeg" alt="first block img" style="width:100%;">
+        </picture>
+        <table id="titling">
+            <tr><td> <h1>Гаджеты 21 века</h1></td></tr>
+        </table>
+        <div id="my_ban">
+            <p>Некоторые категории гаджетов</p>
+        </div>
+    </div>
+    <div id="2block">
+        <ul id="classes">
+            <li class="card">
+                <a href="SmartPhones.html#bottom"><img src="images/Smartphones/1block.jpg" alt="" height="200"></a>
+                <p>Смартфоны</p>
+            </li>
+            <li class="card">
+                <a href="PCs.html#bottom"><img src="images/PCs/1block.jpg" alt="" height="200"></a>
+                <p>Ноутбуки и ПК</p>
+            </li>
+            <li class="card">
+                <a href="other.html#bottom"><img src="images/other/1block.jpeg" alt="" height="200"></a>
+                <p>Другие устройства</p>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <p><a name="bottom">Зубков Михаил Витальевич ИКБО-30-20. РТУ МИРЭА</a></p>
+    </footer>
+</body>
+</html>

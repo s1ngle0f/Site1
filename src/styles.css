@@ -1,0 +1,220 @@
+@media screen and (min-width: 820px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #nav_menu_desc {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #nav_menu_desc ol {
+        margin: auto;
+        text-align:center;
+        justify-content:center;
+    }
+    #nav_menu_desc a {
+        font-size: 26px;
+        font-family: "Times New Roman", serif;
+        color: black;
+        transition: 1s;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+    #nav_menu_desc li {
+        padding: 10px 20px;
+        display: inline-block;
+        transition: 150ms;
+    }
+    #nav_menu_desc a:hover {
+        color: lightgray;
+    }
+    #1block div{
+        height: 250px;
+        width:100%
+    }
+    #titling {
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        right: 37%;
+    }
+    #titling h1 {
+        font-size: 72px;
+        letter-spacing: 5px;
+        font-family: "Times New Roman", sans-serif;
+    }
+    #titling h3 {
+        font-size: medium;
+        letter-spacing: 7px;
+        font-family: "Times New Roman", sans-serif;
+    }
+    #titling p {
+        max-width: 500px;
+        font-size: 16px;
+        letter-spacing: 3px;
+        font-weight: lighter;
+        font-family: "Times New Roman", sans-serif;
+    }
+
+    #my_ban p{
+        text-align: center;
+        font-family: "Times New Roman", serif;
+        font-size: 60px;
+    }
+    #classes {
+        text-align: center;
+        padding-top: 1%;
+    }
+    #classes li{
+        padding: 10px 20px;
+        display: inline-block;
+        font-size: x-large;
+        letter-spacing: 3px;
+        font-family: "Times New Roman", sans-serif;
+        color: black;
+        height: 100%;
+        transition: 0.3s;
+    }
+
+    #classes li:hover{
+        transform: scale(1.1);
+    }
+    #banner_bottom {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 40vh;
+        background-color: whitesmoke;
+    }
+    #banner_bottom h3{
+        font-family: "Times New Roman", serif;
+        font-size: 36px;
+    }
+    #banner_bottom p {
+        width: 600px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: bold;
+        font-family: "Times New Roman", sans-serif;
+        font-size: 24px;
+    }
+
+    footer {
+        text-align: center;
+        font-family: sans-serif;
+        color: dimgray;
+    }
+
+}
+
+@media screen and (max-width: 819px) {
+
+    #nav_menu_desc ol {
+        margin: auto;
+        text-align:center;
+    }
+
+    #nav_menu_desc a {
+        font-size: 24px;
+        font-family: "Times New Roman", serif;
+        color: black;
+        transition: 1s;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+    #nav_menu_desc li {
+        list-style-type: none;
+        padding: 20px 20px;
+        transition: 150ms;
+    }
+    #nav_menu_desc a:hover {
+        text-decoration: none;
+        background-color: lightgray;
+        border-radius: 1em;
+    }
+    #1block div{
+        height: 250px;
+        width:100%
+    }
+    #titling {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+    #titling h1 {
+        font-size: 30px;
+        letter-spacing: 5px;
+        font-family: 'Raleway-reg', sans-serif;
+    }
+    #titling h3 {
+        font-size: 12px;
+        letter-spacing: 7px;
+        font-family: 'Raleway', sans-serif;
+    }
+    #titling p {
+        max-width: 300px;
+        font-size: 24px;
+        letter-spacing: 3px;
+        font-weight: lighter;
+        font-family: Montserrat, sans-serif;
+    }
+    #classes.card {
+        width: 50px;
+    }
+    #my_ban p{
+        text-align: center;
+        font-family: Raleway-reg, serif;
+        font-size: 60px;
+    }
+    #classes {
+        text-align: center;
+    }
+    #classes{
+        list-style-type: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        font-size: x-large;
+        letter-spacing: 3px;
+        font-family: Montserrat, sans-serif;
+        color: black;
+        transition: 0.3s;
+    }
+    #banner_bottom {
+
+        width: 300px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+
+        background-color: whitesmoke;
+    }
+    #banner_bottom h3{
+        font-family: "Roboto Light", serif;
+        font-size: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    #banner_bottom p {
+        text-align: center;
+        width: 250px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: bold;
+        font-family: Raleway-reg, sans-serif;
+        font-size: 20px;
+    }
+    footer {
+        text-align: center;
+        font-family: sans-serif;
+        color: dimgray;
+    }
+    /** {*/
+    /*    border: 1px solid;*/
+    /*}*/
+}
