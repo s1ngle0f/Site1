@@ -9,20 +9,22 @@
     <title>Главная</title>
 </head>
 <body>
-    <header>
-        <a href="https://s1ngle0f.github.io/Site/" style="background-color: white; border: 0px solid;">
-            <img src="images/logo.jpg" width="100" alt="logo">
-        </a>
-        <nav id="nav_menu_desc">
-            <ol>
-                <li><a href="#bottom" style="color: slategray">Главная</a></li>
-                <li><a href="SmartPhones.html">Смартфоны</a></li>
-                <li><a href="PCs.html">Ноутбуки и ПК</a></li>
-                <li><a href="other.html">Другие устройства</a></li>
-                <li><a href="order.html">Войти</a></li>
-            </ol>
-        </nav>
-    </header>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="https://s1ngle0f.github.io/Site/"><li>Version 2</li></a>
+                <a href="#bottom"><li>Низ этой страницы</li></a>
+                <a href="SmartPhones.html"><li>Смартфоны</li></a>
+                <a href="PCs.html"><li>ПК и ноуты</li></a>
+                <a href="other.html"><li>Другие устройства</li></a>
+                <a href="order.html"><li>Логин</li></a>
+            </ul>
+        </div>
+    </nav>
     <div id="1block">
         <picture>
             <source media="(max-width: 1200px)" srcset="images/index/1block_smaller_too.jpeg">
